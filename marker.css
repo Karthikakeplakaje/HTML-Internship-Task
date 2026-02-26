@@ -1,0 +1,12 @@
+#happy::marker{
+    content:"😁";
+}
+#sad::marker{
+    content:"😥";
+}
+#angry::marker{
+    content:"😠";
+}
+#love::marker{
+    content:"💌";
+}
