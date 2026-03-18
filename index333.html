@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Box</title>
+    <style>
+        #box {
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <input type="text" id="colorInput" placeholder="Enter color name">
+
+   
+    <button onclick="changeColor()">Submit</button>
+
+    <script>
+        function changeColor() {
+            let color = document.getElementById("colorInput").value;
+            let box = document.getElementById("box");
+
+            box.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>
